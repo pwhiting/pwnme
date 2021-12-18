@@ -1,5 +1,5 @@
 Build:
-mvn compile assembly:single
+mvn package 
 
 Run:
-java -jar target/pwnme-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -jar target/pwnme.jar
